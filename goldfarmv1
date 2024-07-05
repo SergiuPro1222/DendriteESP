@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local WhitelistGoldfarmv1 = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -17,10 +12,9 @@ local seven = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 
---Properties:
-
 WhitelistGoldfarmv1.Name = "WhitelistGoldfarmv1"
 WhitelistGoldfarmv1.Parent = game.CoreGui
+WhitelistGoldfarmv1.Enabled = false
 WhitelistGoldfarmv1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = WhitelistGoldfarmv1
@@ -134,7 +128,7 @@ TextLabel_3.TextSize = 20.000
 
 -- Scripts:
 
-local function OGUF_fake_script() -- Frame_2.LocalScript 
+local function UFYNVT_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local michastext = script.Parent.TextLabel
@@ -251,7 +245,7 @@ local function OGUF_fake_script() -- Frame_2.LocalScript
 	magnum:Destroy()
 	
 	------------ADVERATU LOADER
-	-- Gui to Lua
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
